@@ -6,28 +6,28 @@ const newsData = [
     title: "La plantilla estrena el balón retro con el que se jugará la próxima jornada",
     category: "PRIMER EQUIPO",
     time: "ayer",
-    image: "/img/news_voley_1_1775723326918.png",
+    image: `${import.meta.env.BASE_URL}img/news_voley_1_1775723326918.png`,
   },
   {
     id: 2,
     title: "¡Qué locura de Liga! El equipo da una lección de carácter",
     category: "PRIMER EQUIPO",
     time: "anteayer",
-    image: "/img/news_voley_2_1775723342572.png",
+    image: `${import.meta.env.BASE_URL}img/news_voley_2_1775723342572.png`,
   },
   {
     id: 3,
     title: "¡Segundos, a un punto del líder al que se visita el domingo!",
     category: "PRIMER EQUIPO",
     time: "hace 4 días",
-    image: "/img/news_voley_3_1775723357681.png",
+    image: `${import.meta.env.BASE_URL}img/news_voley_3_1775723357681.png`,
   },
   {
     id: 4,
     title: "\"Este triunfo puede ser un punto de inflexión en lo colectivo\"",
     category: "PRIMER EQUIPO",
     time: "hace 4 días",
-    image: "/img/news_voley_4_1775723372543.png",
+    image: `${import.meta.env.BASE_URL}img/news_voley_4_1775723372543.png`,
   },
 ];
 

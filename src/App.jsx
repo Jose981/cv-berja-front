@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import History from "./pages/History";
 import EquiposPage from "./pages/EquiposPage";
@@ -21,6 +21,7 @@ function App() {
         <Route path="/en-directo" element={<EnDirectoPage />} />
         <Route path="/calendario" element={<CalendarioPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   )

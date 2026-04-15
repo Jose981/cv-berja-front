@@ -31,7 +31,7 @@ function Inicio() {
             </div>
           </div>
           <div className="hero__visual">
-            <img src="/img/hero.png" alt="Jugador de voleibol rematando" />
+            <img src={`${import.meta.env.BASE_URL}img/hero.png`} alt="Jugador de voleibol rematando" />
           </div>
         </div>
         <div className="hero__stats">
